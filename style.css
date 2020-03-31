@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    width: 1600px;
+    max-width: 100%;
+    height: auto;
+}
+.header-flex{
+    display: flex;
+
+}
+.header-flex__logo{
+    width: 50%;
+    height: auto;
+
+}
+
+.header-flex__slogan{
+    width: 50%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+/* menu */
+.header-flex__menu{
+    height: 50px;
+
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.header-flex__menu ul{
+    display: flex;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-flex__menu li{
+    list-style: none;
+    margin:0 10px;
+    line-height: 30px;
+  
+}
+.header-flex__menu a{
+    text-decoration:none ;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: dimgray;
+    font-weight: bold;
+    
+}
+.header-flex__menu a:hover{
+    border-bottom: 2px solid brown;
+}
+
+.content-intro-flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin:20px 0;
+    text-align: center;
+}
+.intro__banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+}
+.intro__banner img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.intro__info{
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+}
+.intro__info h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro__info p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    line-height: 30px;
+    font-weight: 500;
+}
+.intro__programs{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+.intro__programs h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.img-program{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.img{
+    width: 24%;
+    height: 500px;
+    position: relative;
+    text-align: left;
+    line-height: 20px;
+}
+.img img{
+    width: 100%;
+    height: 300px;
+    position:absolute;
+    left: 0;
+}
+.img h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: brown;
+    margin-top: 320px;
+}
+.img p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: dimgrey;
+}
+.intro__news-event{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+
+}
+.intro__news-event h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.img__news-event{
+    width: 1600px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.big-img{
+    width: 750px;
+    height: 500px;
+    position: relative;
+    border-bottom: 2px solid brown;
+}
+.big-img img{
+    width: 750px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+
+
+}
+.big-img p{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color:black;
+    color: white;
+    margin-top: 450px;
+    height: 40px;
+    line-height: 40px;
+    
+}
+.sm-img{
+    width: 390px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-news{
+    width: 390px;
+    height: 240px;
+    position: relative;
+    border-bottom: 2px solid brown;
+}
+.img-news img{
+    height: 230px;
+    width: 390px;
+    position: absolute;
+    left: 0;
+}
+.img-news p{
+    width: 388px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    margin-left: 1px;
+    margin-top: 194px;
+    opacity: 0.7;
+    text-align: left;
+}
+#text-img4{
+    margin-left: 4px;
+    width: 386px;
+}
