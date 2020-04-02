@@ -96,6 +96,7 @@
     color: dimgray;
     line-height: 30px;
     font-weight: 500;
+
 }
 .intro__programs{
     width: 100%;
@@ -145,7 +146,6 @@
 .intro__news-event{
     width: 100%;
     height: auto;
-    margin-top: 100px;
 
 }
 .intro__news-event h1{
@@ -156,70 +156,78 @@
     text-transform: uppercase;
 }
 .img__news-event{
-    width: 1600px;
+    width: 100%;
     height: 500px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 .big-img{
-    width: 750px;
+    width: 48%;
     height: 500px;
-    position: relative;
     border-bottom: 2px solid brown;
+    position: relative;
+
 }
-.big-img img{
-    width: 750px;
-    height: 480px;
-    position: absolute;
-    left: 0;
-    z-index: -1;
-
-
+.img-news1{
+    background-image: url(images/tin_tuc_1.png);
+    background-size: cover;
+    height: 495px;
 }
 .big-img p{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
-    background-color:black;
+    background-color:#00000085;
     color: white;
-    margin-top: 450px;
-    height: 40px;
+    height: 80px;
     line-height: 40px;
-    
+    z-index: 1;
+    position: absolute;
+    margin-top: -80px;
+    text-align: left;
 }
 .sm-img{
-    width: 390px;
+    width: 24%;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .img-news{
-    width: 390px;
     height: 240px;
     position: relative;
     border-bottom: 2px solid brown;
 }
-.img-news img{
-    height: 230px;
-    width: 390px;
-    position: absolute;
-    left: 0;
+.img-news-2{
+    background-image: url(images/tin_tuc_2.png);
+    background-size: cover;
+    height: 235px;
+}
+.img-news-4{
+    background-image: url(images/tin_tuc_4.png);
+    background-size: cover;
+    height: 235px;
+}
+.img-news-3{
+    background-image: url(images/tin_tuc_3.png);
+    background-size: cover;
+    height: 235px;
+}
+.img-news-5{
+    background-image: url(images/tin_tuc_5.png);
+    background-size: cover;
+    height: 235px;
 }
 .img-news p{
-    width: 388px;
-    font-size: 15px;
+    position: absolute;
+    font-size: 14px;
     text-transform: uppercase;
     color: white;
-    background: black;
+    background:#00000085;
     margin-left: 1px;
-    margin-top: 194px;
-    opacity: 0.7;
     text-align: left;
+    margin-top: -33px;
 }
-#text-img4{
-    margin-left: 4px;
-    width: 386px;
-}
+
